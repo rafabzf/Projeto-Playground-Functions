@@ -8,13 +8,14 @@ function compareTrue(girafa, macaco) {
 }
 
 // Desafio 2
-function calcArea() {
-  // seu código aqui
+function calcArea(base, height) {
+  let resultado = (base * height) / 2;
+  return resultado
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(frases) {
+  return frases.split (' ');
 }
 
 // Desafio 4
