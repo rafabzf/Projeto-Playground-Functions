@@ -1,6 +1,10 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aquiiii
+function compareTrue(girafa, macaco) {
+  if (macaco && girafa) {
+    return true;
+  } else {
+    return false
+  }
 }
 
 // Desafio 2
