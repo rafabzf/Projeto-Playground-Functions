@@ -66,11 +66,23 @@ function fizzBuzz(array) {
 }
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(vogal) {
+  vogal = vogal.replace(/a/g, '1');
+  vogal = vogal.replace(/e/g, '2');
+  vogal = vogal.replace(/i/g, '3');
+  vogal = vogal.replace(/o/g, '4');
+  vogal = vogal.replace(/u/g, '5');
+  return vogal;
 }
-function decode() {
-  // seu código aqui
+
+
+function decode(numero) {
+  numero = numero.replace(/1/g, 'a');
+  numero = numero.replace(/2/g, 'e');
+  numero = numero.replace(/3/g, 'i');
+  numero = numero.replace(/4/g, 'o');
+  numero = numero.replace(/5/g, 'u');
+  return numero;
 }
 
 // Desafio 10
